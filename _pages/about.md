@@ -22,8 +22,3 @@ I recently graduated with a PhD in Computer Science from [Mines ParisTech](https
 a work I carried out under the supervision of [Pr. Thomas Walter](https://thomaswalter.github.io/) and [Pr. Etienne Decencière](https://people.cmm.minesparis.psl.eu/users/decenciere/) at the [CBIO lab'](https://cbio.mines-paristech.fr/).
 My research focuses on representation learning in histopathology and its application in biomarker prediction.
 I am enthusiastic about collaborations and exploring new opportunities. Feel free to reach out to me!
-
-/_ I am a researcher working in the field of computional pathology. _/
-/_ I recently graduated from Mines-ParisTech and PSL University with a PhD in computer science. _/
-/_ My interests lie in the area of representation learning in histopathology and its application for biomarker prediction. _/
-/_ I am open to collaborations and new opportunities: do not hesitate to contact me! _/
