@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Presently in Andalusia</p>
+    <p>Currently in Andalusia</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
