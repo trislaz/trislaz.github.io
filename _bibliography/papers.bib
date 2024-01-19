@@ -1,84 +1,85 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{lazardDeepLearningIdentifies2022a,
+  title = {Deep Learning Identifies Morphological Patterns of Homologous Recombination Deficiency in Luminal Breast Cancers from Whole Slide Images},
+  author = {Lazard, Tristan and Bataillon, Guillaume and Naylor, Peter and Popova, Tatiana and Bidard, Fran{\c c}ois-Cl{\'e}ment and {Stoppa-Lyonnet}, Dominique and Stern, Marc-Henri and Decenci{\`e}re, Etienne and Walter, Thomas and {Vincent-Salomon}, Anne},
+  year = {2022},
+  month = dec,
+  journal = {Cell Reports Medicine},
+  volume = {3},
+  number = {12},
+  pages = {100872},
+  issn = {2666-3791},
+  doi = {10.1016/j.xcrm.2022.100872},
+  urldate = {2023-11-15},
+  abstract = {Homologous recombination DNA-repair deficiency (HRD) is becoming a well-recognized marker of platinum salt and polyADP-ribose polymerase inhibitor chemotherapies in ovarian and breast cancers. While large-scale screening for HRD using genomic markers is logistically and economically challenging, stained tissue slides are routinely acquired in clinical practice. With the objectives of providing a robust deep-learning method for HRD prediction from tissue slides and identifying related morphological phenotypes, we first show that digital pathology workflows are sensitive to potential biases in the training set, then we propose a method to overcome the influence of these biases, and we develop an interpretation method capable of identifying complex phenotypes. Application to our carefully curated in-house dataset~allows us to predict HRD with high accuracy (area under the receiver-operator characteristics curve 0.86) and to identify morphological phenotypes related to HRD. In particular, the presence of laminated fibrosis and clear tumor cells associated with HRD open new hypotheses regarding its phenotypic impact.},
+  keywords = {bias,breast cancer,computational pathology,deep learning,homologous recombination deficiency,interpretability,molecular subtype,prediction,self-supervised learning,whole slide images},
+  file = {/Users/trislaz/Documents/syncthings/bibliographie/cbio/Democratizing/Lazard et al_2022_Deep learning identifies morphological patterns of homologous recombination.pdf;/Users/trislaz/Zotero/storage/FJ6UTQJ5/S2666379122004360.html}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@misc{lazardDemocratizingComputationalPathology2023,
+  title = {Democratizing Computational Pathology: Optimized {{Whole Slide Image}} Representations for {{The Cancer Genome Atlas}}},
+  shorttitle = {Democratizing Computational Pathology},
+  author = {Lazard, Tristan and Lerousseau, Marvin and Gardrat, Sophie and {Vincent-Salomon}, Anne and Stern, Marc-Henri and Rodrigues, Manuel and Decenci{\`e}re, Etienne and Walter, Thomas},
+  year = {2023},
+  month = dec,
+  primaryclass = {Confirmatory Results},
+  pages = {2023.12.04.569894},
+  publisher = {{bioRxiv}},
+  doi = {10.1101/2023.12.04.569894},
+  urldate = {2024-01-19},
+  abstract = {Automatic analysis of hematoxylin and eosin (H\&E) stained Whole Slide Images (WSI) bears great promise for computer assisted diagnosis and biomarker discovery. However, scarcity of annotated datasets leads to underperforming models. Furthermore, the size and complexity of the image data limit their integration into bioinformatic workflows and thus their adoption by the bioinformatics community. Here, we present Giga-SSL, a self-supervised method for learning WSI representations without any annotation. We show that applying a simple linear classifier on the Giga-SSL representations improves classification performance over the fully supervised alternative on five benchmarked tasks and across different datasets. Moreover, we observe a substantial performance increase for small datasets (average gain of 7 AUC point) and a doubling of the number of mutations predictable from WSIs in a pan-cancer setting (from 45 to 93). We make the WSI representations available, compressing the TCGA-FFPE images from 12TB to 23MB and enabling fast analysis on a laptop CPU. We hope this resource will facilitate multimodal data integration in order to analyze WSI in their genomic and transcriptomic context.},
+  archiveprefix = {bioRxiv},
+  chapter = {Confirmatory Results},
+  copyright = {{\textcopyright} 2023, Posted by Cold Spring Harbor Laboratory. This pre-print is available under a Creative Commons License (Attribution 4.0 International), CC BY 4.0, as described at http://creativecommons.org/licenses/by/4.0/},
+  langid = {english},
+  file = {/Users/trislaz/Documents/syncthings/bibliographie/cbio/my_papers/Lazard et al_2023_Democratizing computational pathology.pdf}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{lazardGigaSSLSelfSupervisedLearning2023a,
+  title = {Giga-{{SSL}}: {{Self-Supervised Learning}} for {{Gigapixel Images}}},
+  shorttitle = {Giga-{{SSL}}},
+  booktitle = {2023 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition Workshops}} ({{CVPRW}})},
+  author = {Lazard, Tristan and Lerousseau, Marvin and Decenci{\`e}re, Etienne and Walter, Thomas},
+  year = {2023},
+  month = jun,
+  pages = {4305--4314},
+  publisher = {{IEEE}},
+  address = {{Vancouver, BC, Canada}},
+  doi = {10.1109/CVPRW59228.2023.00453},
+  urldate = {2023-11-15},
+  isbn = {9798350302493},
+  langid = {english},
+  file = {/Users/trislaz/Zotero/storage/S3N2YNNI/Lazard et al. - 2023 - Giga-SSL Self-Supervised Learning for Gigapixel I.pdf}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{lubranoAutomaticGradingCervical2023,
+  title = {Automatic {{Grading}} of~{{Cervical Biopsies}} by~{{Combining Full}} and~{{Self-supervision}}},
+  booktitle = {Computer {{Vision}} {\textendash} {{ECCV}} 2022 {{Workshops}}},
+  author = {Lubrano, M{\'e}lanie and Lazard, Tristan and Balezo, Guillaume and {Bellahsen-Harrar}, Ya{\"e}lle and Badoual, C{\'e}cile and Berlemont, Sylvain and Walter, Thomas},
+  editor = {Karlinsky, Leonid and Michaeli, Tomer and Nishino, Ko},
+  year = {2023},
+  series = {Lecture {{Notes}} in {{Computer Science}}},
+  pages = {408--423},
+  publisher = {{Springer Nature Switzerland}},
+  address = {{Cham}},
+  doi = {10.1007/978-3-031-25082-8_27},
+  abstract = {In computational pathology, predictive models from Whole Slide Images (WSI) mostly rely on Multiple Instance Learning (MIL), where the WSI are represented as a bag of tiles, each of which is encoded by a Neural Network (NN). Slide-level predictions are then achieved by building models on the agglomeration of these tile encodings. The tile encoding strategy thus plays a key role for such models. Current approaches include the use of encodings trained on unrelated data sources, full supervision or self-supervision. While self-supervised learning (SSL) exploits unlabeled data, it often requires large computational resources to train. On the other end of the spectrum, fully-supervised methods make use of valuable prior knowledge about the data but involve a costly amount of expert time. This paper proposes a framework to reconcile SSL and full supervision, showing that a combination of both provides efficient encodings, both in terms of performance and in terms of biological interpretability. On a recently organized challenge on grading Cervical Biopsies, we show that our mixed supervision scheme reaches high performance (weighted accuracy (WA): 0.945), outperforming both SSL (WA: 0.927) and transfer learning from ImageNet (WA: 0.877). We further shed light upon the internal representations that trigger classification results, providing a method to reveal relevant phenotypic patterns for grading cervical biopsies. We expect that the combination of full and self-supervision is an interesting strategy for many tasks in computational pathology and will be widely adopted by the field.},
+  isbn = {978-3-031-25082-8},
+  langid = {english},
+  keywords = {Histopathology,Mixed supervision,Self-supervised learning,Whole-slide classification},
+  file = {/Users/trislaz/Documents/syncthings/bibliographie/cbio/Democratizing/Lubrano et al_2023_Automatic Grading of Cervical Biopsies by Combining Full and Self-supervision.pdf}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{naylorPredictionTreatmentResponse2022,
+  title = {Prediction of {{Treatment Response}} in {{Triple Negative Breast Cancer From Whole Slide Images}}},
+  author = {Naylor, Peter and Lazard, Tristan and Bataillon, Guillaume and La{\'e}, Marick and {Vincent-Salomon}, Anne and Hamy, Anne-Sophie and Reyal, Fabien and Walter, Thomas},
+  year = {2022},
+  journal = {Frontiers in Signal Processing},
+  volume = {2},
+  issn = {2673-8198},
+  urldate = {2023-11-15},
+  abstract = {The automatic analysis of stained histological sections is becoming increasingly popular. Deep Learning is today the method of choice for the computational analysis of such data, and has shown spectacular results for large datasets for a large variety of cancer types and prediction tasks. On the other hand, many scientific questions relate to small, highly specific cohorts. Such cohorts pose serious challenges for Deep Learning, typically trained on large datasets. In this article, we propose a modification of the standard nested cross-validation procedure for hyperparameter tuning and model selection, dedicated to the analysis of small cohorts. We also propose a new architecture for the particularly challenging question of treatment prediction, and apply this workflow to the prediction of response to neoadjuvant chemotherapy for Triple Negative Breast Cancer.},
+  file = {/Users/trislaz/Documents/syncthings/bibliographie/cbio/Democratizing/Naylor et al_2022_Prediction of Treatment Response in Triple Negative Breast Cancer From Whole.pdf}
 }
