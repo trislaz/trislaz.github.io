@@ -1,0 +1,205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%	~/Documents/trislaz.github.io/_draf
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+\usepackage{hyperref}
+
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\par
+\name{Tristan Lazard}
+
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+\address{37 Boulevard Mortier\\75020, Paris\\\href{https://twitter.com/trislaz}{@trislaz}}
+\address{+336.89.95.84.82\\trislaz.tl@gmail.com\\ \href{trislaz.github.io}{trislaz.github.io}}
+
+% Uncomment to add a third address
+%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+
+
+\section{EDUCATION}
+\textbf{PSL University}, Paris, 75006\\
+{\sl ITI - MS Innovation }, Entrepreneurship and innovation. \hfill 2018-2019.
+\par
+\textbf{Sorbonne University}, Paris  \hfill 2016-2017\\
+{\sl Master 2 : Applied mathematics}
+Thesis: \href{https://drive.google.com/file/d/16VLpiMhV8CecNDiYf85nuo1kFdp9lQAF/view?usp=sharing}{"A model of random mutualistic network."}. 
+\par
+\textbf{Ecole Normale Supérieure}, rue d'Ulm, Paris\\
+{\sl Master 1 : Evolutionary biology and ecology} \hfill 2015-2016 \\
+{\sl Bachelor in life-sciences} \hfill 2013-2014
+\par 
+\textbf{Lycée Saint-Louis}, Paris \hfill 2011-2013\\
+{\sl Classe préparatoire BCPST} 
+\par 
+\textbf{AgroCampus-Ouest}, Rennes \hfill 2014-2015\\
+{\sl Bachelor in Agronomy, spare year} 
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+
+\section{SKILLS}
+\textbf{Languages}: French (mother tongue), fluent English and debutant in Spanish.
+\\
+\textbf{Programming languages}: Python, Bash, \LaTeX, nextflow. 
+\\
+\textbf{Computing skills}: docker, slurm, cloud-computing, GPU-computing, 
+ML+image processing usual libs (pytorch, openCV, PIL, sklearn...).
+\\
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\employer{r}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+\par
+\section{PROFESSIONAL\\EXPERIENCE}
+\employer{CBIO - Mines-Paristech}
+\location{Paris, France}
+\dates{December 2019 - December 2023}
+\title{\textbf{PhD in BioInformatics}}
+\begin{position}
+My PhD project focuses on processing Whole Slide Images, which are digitized microscopic images of diseased tissue commonly used by clinicians for diagnosis. These images contain a vast amount of information, leading to large file sizes (10-15 GB uncompressed). By developing machine learning algorithms to predict patient-level labels from these images, we can assist clinicians in their practice and improve our understanding of the disease through the interpretation of the algorithm's decisions. Main Achievements:
+\begin{itemize}
+    \item \textbf{5 publications}, 3 first authors, in biological journals and machine learning venues. 
+    \item 1 patent.
+    \item \textbf{Prize-winning solution (5000\$)} at the \href{https://www.drivendata.org/competitions/148/visiomel-melanoma/leaderboard/}{VisioMel challenge}. 
+        \href{https://github.com/drivendataorg/visiomel-melanoma/tree/main/3rd%20Place}{Link to the solution}
+\end{itemize}
+
+\end{position}
+
+\employer{CMM, Mines-Paristech}
+\location{Fontainebleau, France}
+\dates{Jan - July 2019}
+\title{\textbf{Engineering internship}}
+\begin{position}
+{\sl Automatic counting of Melanocytes}: In partnership with L'Oréal,
+I created an algorithm for automatically counting melanocytes in microscopic images. This solution has been integrated into the processing pipeline and is now utilized in regular research.
+\end{position}
+\\
+\employer{IBPS, Sorbonne university}
+\location{Paris, France}
+\dates{Jan - August 2018}
+\title{\textbf{Research internship}}
+\begin{position}
+{\sl Large scale phylogenetic tree inference}: Develop an algorithm for calculating phylogenetic trees from huge genetic sequence data (-omics data).
+.
+\end{position}
+
+%-------------------------------------------------------------------------------
+
+\section{PUBLICATIONS}
+\textbf{Lazard, T.}, Bataillon, G., Naylor, P., Popova, T.,
+Bidard, G.-C., Stoppa-Lyonnet, D., Stern, M.-
+H., Decencie` re, E., Walter, T., and Vincent-Sal-
+omon, A. (2022). Deep Learning identifies new
+morphological patterns of Homologous
+Recombination Deficiency in luminal breast
+cancers from whole slide images. \textbf{Cell Reports
+Medicine} 
+\par
+\textbf{Lazard, T.}, Lerousseau, M., Decenci\`ere, E., Walter, T. (2023).
+Giga-SSL: Self-Supervised Learning for Gigapixel Images.
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition \textbf{(CVPR) Workshops}.
+\par
+\textbf{Lazard, T.}, Blusseau S., Velasco-Forero S, Decenci\`ere E., Flouret V., Cohen C., Baldeweck T.
+(2022). Applying Deep Learning to Melanocyte Counting on Fluorescent TRP1 Labelled Images of In Vitro Skin Model.
+\textbf{Image Analysis & Stereology}.
+\par
+Lubrano M., \textbf{Lazard T.}, Balezo G., Bellahsen-Harrar Y., Badoual C., Berlemont S., Walter T. (2022).
+\textbf{Computer Vision–ECCV} 2022 Workshops: Tel Aviv, Israel, October 23–27, 2022, Proceedings.
+\par
+Naylor P, \textbf{Lazard T}, Bataillon G, Laé M, Vincent-Salomon A, Hamy AS, et al. Prediction of Treatment
+Response in Triple Negative Breast Cancer From Whole Slide Images. \textbf{Front Signal Process}.
+\par
+\textbf{Lazard T.}, Decenci\`ere E., Walter T. Democratizing computational pathology: optimized WSI representations for the TCGA.
+\textbf{Preprint}.
+\par
+\textbf{T. Lazard}, et. al., Cancer du sein - Utilisation de l’intelligence artificielle pour prédire le statut tumoral relatif à la recombinaison homologue (2023). \textbf{Médecine et Sciences}
+\par
+A. Beaufr\`ere*, \textbf{T. Lazard*}, et. al. Self-supervised learning to predict intrahepatic cholangiocarcinoma transcriptomic classes on routine histology (2024). \textbf{Preprint}
+\\
+
+%-------------------------------------------------------------------------------
+%	Interests
+%-------------------------------------------------------------------------------
+\section{INTERESTS}
+Climbing, harmonica, poetry and litterature. 
+%-------------------------------------------------------------------------------
+\end{resume}
+\end{document}
