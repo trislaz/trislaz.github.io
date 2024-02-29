@@ -6,7 +6,7 @@
     "email": "trislaz.tl@gmail.com",
     "phone": "+336.89.95.84.82",
     "url": "https://trislaz.github.io/",
-    "summary": "After completing my undergraduate studies in biology at ENS Ulm, I pursued and graduated with a Master's degree in Applied Mathematics from UPMC Sorbonne. Subsequently, I earned my PhD from CBIO at Mines ParisTech. My doctoral research bridged the fields of biology, mathematics, and computer science, with a particular focus on developing algorithms to learn representations of large-scale microscopy images (WSIs). My interests broadly span these areas, including biology and evolution, applied mathematics, as well as computer science and machine learning.",
+    "summary": "After completing my undergraduate studies in biology at ENS Ulm, I pursued and graduated with a Master's degree in Applied Mathematics from UPMC Sorbonne. Then, I earned my PhD from CBIO at Mines ParisTech. My doctoral research bridged the fields of biology, mathematics, and computer science, with a particular focus on developing algorithms to learn representations of large-scale microscopy images (WSIs). My interests broadly span these areas, including biology and evolution, applied mathematics, as well as computer science and machine learning.",
     "location": {
       "address": "37 Boulevard Mortier",
       "postalCode": "75020",
@@ -83,7 +83,7 @@
       "highlights": []
     },
     {
-      "name": "IBPS, Sorbonne University",
+      "name": "IBPS, Sorbonne University, AIRE team",
       "position": "Research Intern",
       "url": "",
       "startDate": "2018-01",
@@ -92,16 +92,16 @@
       "highlights": []
     },
     {
-      "name": "Collège de France",
+      "name": "Collège de France, SMILE team",
       "position": "Research Intern",
       "url": "",
       "startDate": "2017-03",
       "endDate": "2017-07",
-      "summary": "I worked on a model of random mutualistic network. Most notably studied its asymptotic behaviours and developed an algorithm to infer its parameters from a sampled network.",
+      "summary": "I worked on a model of random mutualistic network. I studied its asymptotic behaviours and developed an algorithm to infer its parameters from a sampled network.",
       "highlights": []
     }
   ],
-  "skills": {
+"skills": {
     "languages": ["French (Native)", "English (Fluent)", "Spanish (Beginner)"],
     "programming": ["Python", "Bash", "LaTeX", "Nextflow"],
     "computing": ["Docker", "Slurm", "Cloud-computing", "GPU-computing", "ML+image processing libs (PyTorch, OpenCV, PIL, Sklearn)"]
