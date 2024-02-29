@@ -101,7 +101,7 @@
       "highlights": []
     }
   ],
-"skills": {
+  "skills": {
     "languages": ["French (Native)", "English (Fluent)", "Spanish (Beginner)"],
     "programming": ["Python", "Bash", "LaTeX", "Nextflow"],
     "computing": ["Docker", "Slurm", "Cloud-computing", "GPU-computing", "ML+image processing libs (PyTorch, OpenCV, PIL, Sklearn)"]
