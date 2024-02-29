@@ -62,7 +62,7 @@
       "endDate": "2013",
       "courses": []
     }
-    ],
+  ],
   "work": [
     {
       "name": "CBIO - Mines-Paristech",
@@ -100,7 +100,6 @@
       "summary": "I worked on a model of random mutualistic network. Most notably studied its asymptotic behaviours and developed an algorithm to infer its parameters from a sampled network.",
       "highlights": []
     }
- 
   ],
   "skills": {
     "languages": ["French (Native)", "English (Fluent)", "Spanish (Beginner)"],
