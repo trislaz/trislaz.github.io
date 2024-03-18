@@ -122,7 +122,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: trislaz-notes # blog_name will be displayed in your blog page
-blog_description: personnal notes. 
+blog_description: personnal notes.
 permalink: /blog/:year/:title/
 
 # Pagination
