@@ -48,6 +48,7 @@
 % Default font is the helvetica postscript font
 \usepackage{helvet}
 \usepackage{hyperref}
+\usepackage{fontawesome}
 
 % Increase text height
 \textheight=700pt
@@ -66,7 +67,7 @@
 % -linked-in profile
 
 \address{37 Boulevard Mortier\\75020, Paris\\\href{https://twitter.com/trislaz}{@trislaz}}
-\address{+336.89.95.84.82\\trislaz.tl@gmail.com\\ \href{trislaz.github.io}{trislaz.github.io}}
+\address{+336.89.95.84.82\\trislaz.tl@gmail.com\\ \href{https://trislaz.github.io}{trislaz.github.io}}
 
 % Uncomment to add a third address
 %\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
@@ -88,14 +89,11 @@
 Thesis: \href{https://drive.google.com/file/d/16VLpiMhV8CecNDiYf85nuo1kFdp9lQAF/view?usp=sharing}{"A model of random mutualistic network."}. 
 \par
 \textbf{Ecole Normale Supérieure}, rue d'Ulm, Paris\\
-{\sl Master 1 : Evolutionary biology and ecology} \hfill 2015-2016 \\
-{\sl Bachelor in life-sciences} \hfill 2013-2014
+{\sl Master 1 : Evolutionary biology and ecology} \hfill 2013-2016 \\
+{\sl Bachelor in life-sciences} 
 \par 
 \textbf{Lycée Saint-Louis}, Paris \hfill 2011-2013\\
 {\sl Classe préparatoire BCPST} 
-\par 
-\textbf{AgroCampus-Ouest}, Rennes \hfill 2014-2015\\
-{\sl Bachelor in Agronomy, spare year} 
 %-------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------
@@ -131,9 +129,20 @@ ML+image processing usual libs (pytorch, openCV, PIL, sklearn...).
 \employer{CBIO - Mines-Paristech}
 \location{Paris, France}
 \dates{December 2019 - December 2023}
-\title{\textbf{PhD in BioInformatics}}
+    \title{\textbf{PhD in BioInformatics - \href{https://theses.hal.science/tel-04694319v1}{\Large \faBook} - \href{https://drive.google.com/file/d/14Oqe85fIGDevRWF5WRY1IB2L6Tr49YMN/view?usp=sharing}{\Large \faFilePowerpointO}}}
 \begin{position}
-My PhD project focuses on processing Whole Slide Images, which are digitized microscopic images of diseased tissue commonly used by clinicians for diagnosis. These images contain a vast amount of information, leading to large file sizes (10-15 GB uncompressed). By developing machine learning algorithms to predict patient-level labels from these images, we can assist clinicians in their practice and improve our understanding of the disease through the interpretation of the algorithm's decisions. Main Achievements:
+
+\begin{itemize}
+
+    \item Developed interpretability methods for Multiple Instance Learning architectures to better understand phenotypic manifestations of HRD in breast cancers \href{https://doi.org/10.1016/j.xcrm.2022.100872}{link to paper}.
+    
+    \item Developed \textbf{ GigaSSL }, the first unsupervised learning algorithm at the whole-slide scale (1 slide = 1 representation), where the representations are at least as good as those from specialized algorithms across a wide range of downstream tasks (\href{https://arxiv.org/abs/2212.03273}{paper 1}, \href{https://www.biorxiv.org/content/10.1101/2023.12.04.569894v1.abstract}{paper 2}).
+    
+    \item Applied the previous algorithm in various data challenges: drivendata-Visiomel (1st/542 public leaderboard - 3rd/542 private leaderboard, \$5,000 cash prize), kaggle-UBC-Ocean (2nd/1326 public leaderboard - 17th/1326 private leaderboard). A very simple linear model trained on GigaSSL slide representations competed with complex MIL and ensembling models.
+\end{itemize}
+
+Achievements:
+
 \begin{itemize}
     \item \textbf{5 publications}, 3 first authors, in biological journals and machine learning venues. 
     \item 1 patent.
@@ -149,7 +158,7 @@ My PhD project focuses on processing Whole Slide Images, which are digitized mic
 \title{\textbf{Engineering internship}}
 \begin{position}
 {\sl Automatic counting of Melanocytes}: In partnership with L'Oréal,
-I created an algorithm for automatically counting melanocytes in microscopic images. This solution has been integrated into the processing pipeline and is now utilized in regular research.
+I created an algorithm for automatically counting melanocytes in microscopic images. This solution has been integrated into the processing pipeline and is now utilized in regular research and led to an article in a peer-reviewed journal.
 \end{position}
 \\
 \employer{IBPS, Sorbonne university}
@@ -157,7 +166,7 @@ I created an algorithm for automatically counting melanocytes in microscopic ima
 \dates{Jan - August 2018}
 \title{\textbf{Research internship}}
 \begin{position}
-{\sl Large scale phylogenetic tree inference}: Develop an algorithm for calculating phylogenetic trees from huge genetic sequence data (-omics data).
+{\sl Large scale phylogenetic tree inference}: Development of an algorithm for calculating phylogenetic trees from genetic sequence data (-omics data).
 .
 \end{position}
 
@@ -177,18 +186,19 @@ Medicine}
 Giga-SSL: Self-Supervised Learning for Gigapixel Images.
 Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition \textbf{(CVPR) Workshops}.
 \par
+\textbf{T. Lazard} et al., 
+Democratizing computational pathology: optimized Whole Slide Image representations for The Cancer Genome Atlas (2024), doi: 10.1101/2023.12.04.569894. 
+\textbf{preprint}
+
 \textbf{Lazard, T.}, Blusseau S., Velasco-Forero S, Decenci\`ere E., Flouret V., Cohen C., Baldeweck T.
-(2022). Applying Deep Learning to Melanocyte Counting on Fluorescent TRP1 Labelled Images of In Vitro Skin Model.
+Applying Deep Learning to Melanocyte Counting on Fluorescent TRP1 Labelled Images of In Vitro Skin Model (2022). 
 \textbf{Image Analysis & Stereology}.
 \par
 Lubrano M., \textbf{Lazard T.}, Balezo G., Bellahsen-Harrar Y., Badoual C., Berlemont S., Walter T. (2022).
 \textbf{Computer Vision–ECCV} 2022 Workshops: Tel Aviv, Israel, October 23–27, 2022, Proceedings.
 \par
 Naylor P, \textbf{Lazard T}, Bataillon G, Laé M, Vincent-Salomon A, Hamy AS, et al. Prediction of Treatment
-Response in Triple Negative Breast Cancer From Whole Slide Images. \textbf{Front Signal Process}.
-\par
-\textbf{Lazard T.}, Decenci\`ere E., Walter T. Democratizing computational pathology: optimized WSI representations for the TCGA.
-\textbf{Preprint}.
+Response in Triple Negative Breast Cancer From Whole Slide Images (2022). \textbf{Front Signal Process}.
 \par
 \textbf{T. Lazard}, et. al., Cancer du sein - Utilisation de l’intelligence artificielle pour prédire le statut tumoral relatif à la recombinaison homologue (2023). \textbf{Médecine et Sciences}
 \par
