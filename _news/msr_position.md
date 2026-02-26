@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started a new research position as PostDoc at Microsoft Research Cambridge!
+I joined [Microsoft Research Health Futures](https://www.microsoft.com/en-us/research/lab/microsoft-health-futures/) in Cambridge, working on interpretability for scientific discovery in biology!

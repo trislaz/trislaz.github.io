@@ -1,18 +1,15 @@
 {
   "basics": {
     "name": "Tristan Lazard",
-    "label": "PhD in Computational Pathology",
+    "label": "Researcher at Microsoft Research",
     "image": "",
     "email": "trislaz.tl@gmail.com",
-    "phone": "+336.89.95.84.82",
     "url": "https://trislaz.github.io/",
-    "summary": "After completing my undergraduate studies in biology at ENS Ulm, I pursued and graduated with a Master's degree in Applied Mathematics from UPMC Sorbonne. Then, I earned my PhD from CBIO at Mines ParisTech. My doctoral research bridged the fields of biology, mathematics, and computer science, with a particular focus on developing algorithms to learn representations of large-scale microscopy images (WSIs). My interests broadly span these areas, including biology and evolution, applied mathematics, as well as computer science and machine learning.",
+    "summary": "Researcher at Microsoft Research Health Futures in Cambridge, working on interpretability for scientific discovery in biology. After completing my undergraduate studies in biology at ENS Ulm, I pursued a Master's in Applied Mathematics at Sorbonne University, then earned my PhD from CBIO at Mines ParisTech / PSL University. My research bridges biology, mathematics, and computer science, with a focus on representation learning, model interpretability, and AI-driven biomarker discovery from large-scale microscopy images.",
     "location": {
-      "address": "37 Boulevard Mortier",
-      "postalCode": "75020",
-      "city": "Paris",
-      "countryCode": "FR",
-      "region": "Île-de-France"
+      "city": "Cambridge",
+      "countryCode": "UK",
+      "region": "England"
     },
     "profiles": [
       {
@@ -65,6 +62,15 @@
   ],
   "work": [
     {
+      "name": "Microsoft Research, Health Futures",
+      "position": "Postdoctoral Researcher",
+      "url": "https://www.microsoft.com/en-us/research/lab/microsoft-health-futures/",
+      "startDate": "2025-06",
+      "endDate": "",
+      "summary": "Working on interpretability of large multimodal models for scientific discovery in biology. Contributing to agentic frameworks for automated histopathology analysis.",
+      "highlights": []
+    },
+    {
       "name": "CBIO - Mines-Paristech",
       "position": "PhD Candidate",
       "url": "",
@@ -88,7 +94,7 @@
       "url": "",
       "startDate": "2018-01",
       "endDate": "2018-08",
-      "summary": "I developped an algorithm for calculating phylogenetic trees from huge genetic sequence data (-omics data).",
+      "summary": "I developed an algorithm for calculating phylogenetic trees from large-scale genetic sequence data (-omics data).",
       "highlights": []
     },
     {

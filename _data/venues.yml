@@ -1,6 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"CVPRW":
+  url: https://cvpr.thecvf.com/
+  color: "#2196F3"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ECCVW":
+  url: https://eccv.ecva.net/
+  color: "#4CAF50"
+
+"CRM":
+  url: https://www.cell.com/cell-reports-medicine/home
+  color: "#E91E63"

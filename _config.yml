@@ -8,7 +8,7 @@ middle_name:
 last_name: Lazard
 email: trislaz.tl@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal academic website of Tristan Lazard. Researcher at Microsoft Research, working on interpretability for scientific discovery in biology.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -122,7 +122,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: trislaz-notes # blog_name will be displayed in your blog page
-blog_description: personnal notes.
+blog_description: personal notes.
 permalink: /blog/:year/:title/
 
 # Pagination
