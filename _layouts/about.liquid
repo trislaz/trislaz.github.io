@@ -1,28 +1,26 @@
 ---
 layout: default
 ---
-<section class="about-intro">
-  <div class="about-text">
-    <h1>Tristan Lazard</h1>
-    <p class="intro">{{ page.subtitle }}</p>
-    <div class="about-copy">{{ content }}</div>
-
-    <nav class="profile-links" aria-label="Profile links">
-      <a href="mailto:{{ site.email }}">Email</a>
-      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a>
-      <a href="https://github.com/{{ site.github_username }}">GitHub</a>
-      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
-      <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a>
-      <a href="{{ site.cv_path | relative_url }}" download>CV (PDF)</a>
-    </nav>
-  </div>
-
+<section class="profile">
   <img
     class="profile-photo"
     src="{{ site.profile_image | prepend: '/assets/img/' | relative_url }}"
     alt="Portrait of Tristan Lazard"
   >
+  <h1>Tristan Lazard</h1>
+  <p class="intro">{{ page.subtitle }}</p>
+
+  <nav class="profile-links" aria-label="Profile links">
+    <a href="mailto:{{ site.email }}">Email</a>
+    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}">Google Scholar</a>
+    <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+    <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a>
+    <a href="https://orcid.org/{{ site.orcid_id }}">ORCID</a>
+    <a href="{{ site.cv_path | relative_url }}" download>CV (PDF)</a>
+  </nav>
 </section>
+
+<div class="about-copy">{{ content }}</div>
 
 {% if page.news %}
   <section class="content-section" id="news">
