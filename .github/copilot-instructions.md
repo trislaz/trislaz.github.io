@@ -28,4 +28,4 @@ There is no unit-test suite. A production Jekyll build is the primary integratio
 - Add publications only in `_bibliography/papers.bib`. Preview filenames resolve under `assets/img/publication_preview/`.
 - Add updates as dated Markdown files in `_news/` with `inline: true`.
 - Use semantic HTML and native elements such as `<details>` before adding scripts.
-- Preserve the restrained visual system and plain-text profile links.
+- Preserve the restrained visual system and the small inline SVG profile icons; do not add an icon font or external icon library.
