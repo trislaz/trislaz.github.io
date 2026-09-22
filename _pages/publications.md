@@ -1,15 +1,11 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description:
-nav: true
-nav_order: 2
+title: Publications
+description: Research on interpretable machine learning, computational pathology, and biological discovery.
+eyebrow: Research
 ---
 
-<!-- _pages/publications.md -->
 <div class="publications">
-
-{% bibliography %}
-
+  {% bibliography %}
 </div>

@@ -17,41 +17,23 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
   build:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.2"
+          ruby-version: "3.2"
           bundler-cache: true
-      - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@v0.13.1
-        with:
-          commitChange: false
-          valueFile: "_config.yml"
-          propertyPath: "giscus.repo"
-          value: ${{ github.repository }}
-      - name: Install ImageMagick 🖼️
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick
-      - name: Install and Build 🔧
-        run: |
-          pip3 install --upgrade jupyter
-          npm install -g mermaid.cli
-          npm install -g purgecss
-          export JEKYLL_ENV=production
-          bundle exec jekyll build --lsi
-          purgecss -c purgecss.config.js
-      - name: Upload artifact 📦
+      - name: Build
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build
+      - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
@@ -65,6 +47,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy 🚀
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
