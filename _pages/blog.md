@@ -101,9 +101,10 @@ pagination:
 
 {% endif %}
 
-  {% if site.posts.size == 0 %}
-    <p>Nothing here yet. Check back soon!</p>
-  {% endif %}
+{% if site.posts.size == 0 %}
+
+<p>Nothing here yet. Check back soon!</p>
+{% endif %}
 
   <ul class="post-list">
 
