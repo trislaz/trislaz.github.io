@@ -26,4 +26,4 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: true
-          args: --offline --verbose --no-progress "_site/**/*.html"
+          args: --offline --verbose --no-progress --root-dir "_site" "_site/**/*.html"
